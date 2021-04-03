@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/myprofile', function () {
+    return view('cv');
+});
+
+Route::get('/myprofile2', function () {
+    return view('cv2');
+});
