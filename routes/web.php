@@ -22,3 +22,6 @@ Route::get('/myprofile', function () {
 Route::get('/myprofile2', function () {
     return view('cv2');
 });
+
+Route::get('/ujian', 'UjianController@index');
+
